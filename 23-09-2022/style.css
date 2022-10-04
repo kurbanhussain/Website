@@ -1,0 +1,77 @@
+*{
+     margin: 0px;
+     padding: 0px;
+}
+header{
+     width: 100%;
+     display: flex;
+}
+header .image {
+    background-image: url(img/header3.jpg);
+    height: 700px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+header .image .logo {
+     padding: 18px;
+      position: absolute;
+}
+header .image .logo span{
+    color: chocolate;
+    font-size: 0.2in;
+    padding: 10px;
+}
+header .image .logo a{
+    color: white;
+    margin-top: 12px;
+    font-size: 0.2in;
+    text-decoration: none;
+    
+}
+.image .sociamedia {
+     float: right;
+     padding: 30px;
+}
+.image .sociamedia ul li{
+     display: inline;
+     text-decoration: none;
+}
+.image .sociamedia ul li a{
+    color: white;
+    padding: 10px;
+    font-size: 0.2in;
+}
+.image .sociamedia .serch{
+       
+       background-color: chocolate;
+       padding: 8px;
+       border-radius: 4px;
+       padding-bottom: 5px;
+}
+.image .h1{
+    width: 40%;
+    /* background-color:aqua ; */
+     padding: 31px;
+     margin-top: 45px;
+     color: white;
+     font-size: 0.2in;
+}
+.image .menu{
+     width: 60%;
+     float: right;
+}
+.image .menu ul li{
+    display: inline;
+    text-decoration: none;
+}
+
+
+
+     
+
+
+
+

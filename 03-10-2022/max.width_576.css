@@ -1,0 +1,614 @@
+@media (max-width:576px){
+      header {
+            width: 100%;
+            display: flex;
+      }
+      
+      header .image {
+            
+            height: 600px;
+            width: 100%;
+      }
+      
+      header .image .logo {
+            padding: 3px;
+            position: absolute;
+      }
+      .image .sociamedia {
+            float: left;
+            margin-top: 12px;
+            /* padding: 30px; */
+      }
+      .image .sociamedia ul li a {
+            color: white;
+            padding:5px;
+            font-size: 0.2in;
+      }
+      .image .head {
+            display: flex;
+            flex-wrap: nowrap;
+            flex-direction: column;
+            width: 100%;
+      }
+      .image .h1 {
+            width: 100%;
+            margin-left: 15px;
+            top: 8px;
+            color: white;
+            font-size: 23px;
+      }
+      .image .menu {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+      }
+      
+      .image .menu ul li {
+            text-decoration: none;
+            padding: 4px;
+            margin-left: 10px;
+      }
+      .image .menu ul li a {
+            color: white;
+            font-size: 12px;
+      }
+      .image .head-1 {
+            margin-top: 150px;
+            margin-left: 19px;
+      }
+      .image .head-1 h1 {
+            color: white;
+            font-size: 0.4in;
+            line-height: 55px;
+      }
+      .image .head-1 p {
+            color: white;
+            font-size: 14px;
+            font-weight: bold;
+            margin-top: 15px;
+            margin-left: 10px;
+      }
+      .our-history {
+            width: 100%;
+            height: 400px;
+            display: flex;
+           flex-wrap: nowrap;
+           flex-direction: column;
+            padding: 15px;
+      }
+      .our-history .our-info {
+            width: 100%;
+            padding: 20px;
+      }
+      .our-history .our-info h1 {
+            font-size: 23px;
+      }
+      .our-history .info {
+            /* background-color: blue; */
+            padding: 1px;
+      }
+      .our-history .info P {
+            width: 100%;
+            width:380px;
+            font-size: 15px;
+            margin-right: 10px;
+            padding-bottom: 10px;
+            line-height: 26px;
+            color: rgb(179, 177, 177);
+      }
+      .images {
+            width: 100%; 
+            display: grid;
+            height: 360px;
+            grid-template-columns: repeat(2,1fr);
+            gap: 10px;
+            margin-left: 24px;
+           
+      }
+      
+      .images .imgs img {
+            width: 200px;
+            height: 130px;
+            padding: 9px;
+            border-radius: 20px;
+      }
+      .our-service {
+            width: 100%;
+            height: 700px;
+           
+            
+      }
+      
+      .our-service .service h1 {
+            /* text-align: center; */
+            margin-left: 10px;
+            font-size: 0.3in;
+           
+      }
+      
+      .our-service .service p {
+            /* text-align: center; */
+            margin-left: 10px;
+            margin-top: 9px;
+            color: rgb(160, 158, 158);
+            font-size: 16px;
+      }
+      .information {
+            padding: 20px;
+            margin-top: 18px;
+            display: grid;
+            margin-left: 20px;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+            height: 450px;
+      }
+      
+      .information .infor span {
+            font-size: 22px;
+      }
+      .information .infor h3 {
+            margin-top: 16px;
+            font-size: 20px;
+      }
+      .information .infor h5 {
+            font-size: 15px;
+            color: rgb(168, 167, 167);
+            width: 220px;
+            margin-top: 12px;
+      }
+      .for-tast {
+            width: 100%;
+            height: 700px;
+            display: flex;
+            flex-direction: column;
+            padding: 5px;
+            margin-top: 4px;
+            margin-left: 40px;
+      }
+      
+      .for-tast .img1 img {
+            width: 400px;
+            height: 300px;
+            border-radius: 8px;
+      }
+      .for-tast .img-info {
+            padding: 15px;
+            margin-left: 25px;
+      }
+      
+      .for-tast .img-info h2 {
+            font-size: 0.3in;
+            margin-left: 58px;
+            padding-bottom: 30px;
+      }
+      
+      .for-tast .img-info p {
+            color: gray;
+            width: 350px;
+            text-align: center;
+            font-size: 17px;
+            line-height: 22px;
+            padding-bottom: 28px;
+      }
+      
+      .for-tast .img-info button {
+            margin-left: 95px;
+      }
+      .special-menu {
+            background-color: black;
+            padding: 15px;
+      }
+      
+      .special-menu h1 {
+            color: white;
+            /* margin-left: 3px; */
+            /* text-align: center; */
+            margin-top: 15px;
+            font-size: 0.3in;
+      }
+      
+      .special-menu .s-menu {
+            margin-left: 60px;
+            padding: 15px;
+      }
+      
+      .special-menu .s-menu ul {
+            display: flex;
+            margin-left: 35px;
+            justify-content: space-evenly;
+            /* align-items: center;
+            list-style: none; */
+      }
+      
+      .special-menu .s-menu ul a {
+            font-size: 13px;
+      }
+      
+      .special-menu .s-menu ul a:hover {
+            
+          
+            padding: 1px;
+      }
+      
+      .special-menu .s-menu ul li {
+            margin-right: 75PX;
+            margin-top: 35px;
+      }
+      
+      .outer-menu {
+            border: 1px solid gray;
+            margin-left: 18px;
+            margin-right: 05px;
+            padding: 12px;
+            margin-top: 15px;
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+      }
+      
+      
+      
+      .outer-menu .in-menu .menu-sp {
+            display: flex;
+            flex-wrap: nowrap;
+      
+      }
+      
+      .outer-menu .in-menu .image img {
+            width: 60px;
+            height: 60px;
+            margin-left: 2px;
+            border-radius: 50%;
+            outline: 1px solid white;
+            padding: 5px;
+            margin-bottom: 15px;
+      }
+      .special-service {
+            width: 100%;
+            height: auto;
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            
+      }
+      
+      .special-service .service h1 {
+            padding: 10px;
+            margin-top: 15px;
+            font-size: 0.3in;
+            color: black;
+            margin-left: 90px;
+         
+      }
+      
+      .special-service .s-info {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            gap: 20px;
+            margin-left: 35px;
+            margin-top: 40px;
+      }
+      
+      .special-service .s-info h3 {
+            font-size: 19px;
+            margin-left: 170px;
+            padding-bottom: 15px;
+      }
+      
+      .special-service .s-info .info-1 p {
+            /* width: 250px; */
+            margin-left: 80px;
+            color: gray;
+            text-align: center;
+            line-height: 25px;
+      }
+      .gallery {
+            padding: 15px;
+            margin-left: 30px;
+      }
+      
+      .gallery .image img{
+            /* float: left; */
+            width: 200px;
+            height: 200;
+      }
+      
+      .gallery .image h1 {
+            padding: 11px;
+            width: 15px;   
+            color: black;
+            font-size: 0.3in;
+      }
+      
+      .gallery-btn {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            /* margin-left: 50px; */
+      }
+      
+      .gallery-btn .div1 {
+            margin-left: 50px;
+            padding: 10px;
+            width: 380px;
+      }
+      
+      .gallery-btn .div1 p {
+            line-height: 27px;
+            color: rgb(179, 179, 179);
+      
+      }
+      .table {
+            height: 500px;
+            margin-top: 55px;
+            /* background-color: aliceblue; */
+            /* width: 80%; */
+      }
+      
+      .table .bg-image {
+            width: 100%;
+            height: 500px;
+      }
+      .table  .bg-image .p-table .con h4 {
+            /* background-color: aliceblue; */
+            font-size:30px;
+            padding: 1px;
+            margin-left:-17px;
+            /* margin-right: 15px; */
+            margin-top: 30px;
+      }
+      .table .bg-image .p-table {
+           margin-top: 15px;
+           margin-left: 80px;
+      }
+      .table .form label {
+            font-size: 17px;
+            color: orange;
+            margin-left: 10px;
+            display: flex;
+            margin-top: 10px;
+            flex-direction: column;
+            
+       }
+      
+      .table input[type="time"] {
+            margin-left: 10px;
+            width: 270px;
+            margin: 10px;
+            height: 50px;
+      }
+      .table .form input {
+            background: none;
+            color:white;
+            
+            font-size: 15px;
+            border: 2px solid white;
+            box-shadow: 2px 2px 4px rgb(175, 174, 174);
+           
+      }
+      .table input[type="date"] {
+      
+            width: 270px;
+            height: 50px;
+            margin-left: 2px;
+            margin-top: 8px;
+            color: white;
+            margin-left: 10px;
+      }
+      
+      .table .form select {
+             width: 275px;
+             height: 54px;
+             background: none;
+             color: white;
+             font-size: 15px;
+             margin-top: 8px;
+             margin-left: 10px;
+             padding: 8px;
+             border: 2px solid white;
+             box-shadow: 2px 2px 4px rgb(175, 174, 174);
+      }
+      .table .form select option {
+             background-color: rgb(37, 36, 36);
+            
+      }
+      .table .form {
+             margin-left:5px;
+             padding: 5px;
+            
+      } 
+      .table .info-2 {
+             margin-left: 20px;
+             margin-top: 5px;
+      }
+      .table .info-2 li{
+             font-size: 13px;
+             letter-spacing: 1px; 
+            }
+      
+      .table .info-2 span{
+             color: orange;
+      }
+      .table .btn1{
+            margin-left: 44px;
+      }
+      .table .btn1 button {
+             width:250px;
+             height: 50px;
+             background-color: orange;
+             border: none;
+             margin-top: 18px;
+             color: white;
+             border-radius: 5px;
+             font-size: 16px;
+      }
+      .table .btn1 button:hover{
+             background-color: transparent;
+             border: 2px solid orange;
+      }
+      .sec6{
+            /* background-color: rgb(227, 228, 230); */
+            padding: 20px;
+            margin-top: 25px;
+     }
+     .sec6 .haed h1{
+            text-align: center;
+            font-size: 0.3in;
+            color: black;
+            padding-bottom: 10px;
+     
+     }
+     .sec6 .haed p{
+           /* text-align: center; */
+           padding-bottom: 10px;
+           color: rgb(165, 164, 164);
+     }
+     .sec6 .info-3 {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            
+     }
+     .sec6 .info-3  .haed-info {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            margin-left: 50px;
+            padding: 30px;
+     }
+     .sec6 .info-3  .haed-info .info2 span {
+            color: white;
+            background-color: orange;
+            padding: 15px;
+            margin-left: 120px;
+            border-radius:50%;
+            
+     }
+     .sec6 .info-3  .haed-info .infom  {
+            margin-left: 10px;
+     }
+     .sec6 .info-3  .haed-info .infom h3{
+            font-size: 18px;
+            margin-left: 80px;
+            margin-top: 15px;
+     }
+     .sec6 .info-3  .haed-info .infom h4{
+           margin-top: 10px;
+           color: gray;
+           margin-left: 60px;
+           font-family: inherit;
+           padding-bottom: 10px;
+     }
+     .sec6 .info-3  .haed-info .infom p{
+           line-height: 23px;
+           text-align: center;
+           margin-left: 5px;
+           font-family: inherit;
+           width: 300px;
+           color:gray;
+     }
+     footer{
+      background-color:black;
+      height:auto;
+}
+footer h1{
+     color: white;
+     /* text-align: center; */
+     font-size: 0.3in;
+     padding: 40px;
+     margin-top: 22px;
+    
+}
+.footer {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+}
+.footer .form-hed {
+      margin-left: 40px;
+}
+.footer .form-hed .h4{
+      color: orange;
+      font-size: 22px;
+      margin-left: 10px;
+      padding-bottom: 15px;
+}
+.footer .form-hed .form-tb input{
+      width: 330px;
+      padding: 16px;
+      margin-top: 10px;
+      font-size: 15px;
+     margin-left: 10px;
+}
+.footer .form-hed .form-tb textarea {
+      margin-left: 10px;
+      width: 330px;
+      padding: 16px;
+      margin-top: 15px;
+      font-size: 15px;
+}
+.footer .form-hed .submit button{
+      width: 290px;
+      margin-left: 10px;
+      padding: 16px;
+      margin-top: 15px;
+      color: white;
+      font-size: 16px;
+      background-color: #141414;
+      border: none;
+}
+.footer .form-hed .submit button:hover{
+      color: black;
+      background-color: orange;
+}
+.footer .contact {
+      margin-left: 40px;
+      margin-top: 40px;
+}
+.footer .contact h2{
+      color: orange;
+      margin-top: 7px;
+      font-size: 22px;
+}
+.footer .contact .con1 .navi{
+      /* margin-top: 15px; */
+      padding: 10px;
+}
+.footer .contact .con1 .navi span{
+      color: white;
+      padding: 10px;
+      font-size: 20px;
+}
+.footer .contact .con1 .navi a{
+      list-style:none;
+      text-decoration: none;
+      color: white;
+      font-size: 18px;
+      font-family: 'Roboto', sans-serif;
+}
+.footer .contact .con1 .navi p{
+     color: gray;
+     margin-left: 45px;
+}
+.map{
+       padding: 10px;
+      margin-left: 5px;
+}
+.map iframe {
+      margin-top: 50px;
+      width:450px;
+      min-height: 300px;
+}
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+}
+      
